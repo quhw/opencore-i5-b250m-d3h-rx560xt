@@ -1,3 +1,7 @@
+# Configuration
+* Supports opencore 0.5.6
+* Use NdkBootPicker 0.1.7 for graphics boot picker.
+
 # Hardware
 * Motherboard: Gigabyte b25m-d3h
 * CPU: Intel i5-7500
