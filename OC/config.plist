@@ -567,6 +567,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>DisableRtcChecksum</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -646,6 +648,8 @@
 			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>525571</integer>
+			<key>BootProtect</key>
+			<string>None</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -673,6 +677,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data></data>
+			</dict>
 		</dict>
 		<key>Block</key>
 		<dict>
@@ -684,6 +693,10 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+			</array>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<array>
+				<string>rtc-blacklist</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -759,7 +772,6 @@
 			<string>HfsPlus.efi</string>
 			<string>NdkBootPicker.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
@@ -824,37 +836,6 @@
 			<key>DirectGopCacheMode</key>
 			<string></string>
 		</dict>
-		<key>Protocols</key>
-		<dict>
-			<key>AppleAudio</key>
-			<false/>
-			<key>AppleBootPolicy</key>
-			<false/>
-			<key>AppleEvent</key>
-			<false/>
-			<key>AppleImageConversion</key>
-			<false/>
-			<key>AppleKeyMap</key>
-			<false/>
-			<key>AppleSmcIo</key>
-			<true/>
-			<key>AppleUserInterfaceTheme</key>
-			<false/>
-			<key>DataHub</key>
-			<false/>
-			<key>DeviceProperties</key>
-			<false/>
-			<key>FirmwareVolume</key>
-			<false/>
-			<key>HashServices</key>
-			<false/>
-			<key>OSInfo</key>
-			<false/>
-			<key>UnicodeCollation</key>
-			<false/>
-			<key>AppleDebugLog</key>
-			<false/>
-		</dict>
 		<key>Quirks</key>
 		<dict>
 			<key>ExitBootServicesDelay</key>
@@ -869,6 +850,52 @@
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
+		</dict>
+		<key>ProtocolOverrides</key>
+		<dict>
+			<key>AppleAudio</key>
+			<false/>
+			<key>AppleBootPolicy</key>
+			<false/>
+			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleRtcRam</key>
+			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
+			<key>DataHub</key>
+			<false/>
+			<key>DeviceProperties</key>
+			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
+		</dict>
+		<key>APFS</key>
+		<dict>
+			<key>EnableJumpstart</key>
+			<false/>
+			<key>HideVerbose</key>
+			<true/>
+			<key>JumpstartHotPlug</key>
+			<false/>
+			<key>MinDate</key>
+			<integer>0</integer>
+			<key>MinVersion</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
