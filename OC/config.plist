@@ -677,11 +677,6 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 			</dict>
-			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-			<dict>
-				<key>rtc-blacklist</key>
-				<data></data>
-			</dict>
 		</dict>
 		<key>Block</key>
 		<dict>
