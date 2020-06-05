@@ -155,7 +155,7 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
-			<true/>
+			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
@@ -163,7 +163,7 @@
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
-			<true/>
+			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>SetupVirtualMap</key>
@@ -545,7 +545,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -555,7 +555,7 @@
 			<key>LapicKernelPanic</key>
 			<false/>
 			<key>PanicNoKextDump</key>
-			<false/>
+			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ThirdPartyDrives</key>
@@ -574,7 +574,7 @@
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>None</string>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>HideAuxiliary</key>
@@ -584,13 +584,13 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PollAppleHotKeys</key>
-			<true/>
+			<false/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
-			<integer>200</integer>
+			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>8</integer>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 		</dict>
@@ -737,7 +737,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<true/>
+			<false/>
 			<key>MLB</key>
 			<string>C02702207GUJ0DXFB</string>
 			<key>ROM</key>
