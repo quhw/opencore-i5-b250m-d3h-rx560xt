@@ -9,5 +9,5 @@
 * Display Card: Sapphire RX560XT
 * Wireless Card: BCM943602CS
 * Display: AOC 4K display
-* Hard Disk: WDSN500 500G M.2 SSD + WD 1T HDD (Fusion disk)
+* Hard Disk: WD SN550 1T M.2 SSD
 
