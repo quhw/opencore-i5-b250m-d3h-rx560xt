@@ -1,5 +1,5 @@
 # Configuration
-* Supports opencore 0.5.9
+* Supports opencore 0.6.0
 * Use OpenCanopy as graphics boot picker.
 
 # Hardware
