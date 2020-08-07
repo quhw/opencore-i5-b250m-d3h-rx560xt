@@ -178,6 +178,8 @@
 			<true/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -610,6 +612,8 @@
 			<true/>
 			<key>SysReport</key>
 			<false/>
+			<key>SerialInit</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -646,8 +650,6 @@
 			<integer>525571</integer>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -830,6 +832,8 @@
 			<false/>
 			<key>SanitiseClearScreen</key>
 			<true/>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -880,6 +884,8 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
 		</dict>
 		<key>APFS</key>
 		<dict>
@@ -893,6 +899,8 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+			<key>GlobalConnect</key>
+			<false/>
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
