@@ -1,3 +1,6 @@
+# 2021/01/12
+* Upgrade to OC 0.6.6.
+
 # 2020/11/21
 * Upgrade to OC 0.6.3. Support macos 11.0.1.
 
