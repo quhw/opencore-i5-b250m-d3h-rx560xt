@@ -98,6 +98,8 @@
 			<false/>
 			<key>ResetLogoStatus</key>
 			<false/>
+			<key>SyncTableIds</key>
+			<false/>
 		</dict>
 		<key>Delete</key>
 		<array>
@@ -689,6 +691,8 @@
 			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 		</dict>
 		<key>Force</key>
 		<array>
@@ -721,6 +725,8 @@
 			<string>x86_64</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
+			<key>CustomKernel</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -792,6 +798,8 @@
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
 				<key>TextMode</key>
 				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -870,6 +878,8 @@
 				<data>Rg==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -932,8 +942,6 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
-			<false/>
 			<key>MLB</key>
 			<string>C02702207GUJ0DXFB</string>
 			<key>ROM</key>
@@ -951,6 +959,8 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>AdviseFeatures</key>
 			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
@@ -1043,7 +1053,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1105,6 +1115,8 @@
 			<key>AppleImg4Verification</key>
 			<false/>
 			<key>AppleSecureBoot</key>
+			<false/>
+			<key>AppleEg2Info</key>
 			<false/>
 		</dict>
 		<key>APFS</key>
